@@ -1,4 +1,6 @@
 import streamlit as st
+import matplotlib.pyplot as plt 
+from numpy.random import rand
 
 
 st.text("Ciao questo fron frtrtrettretertretunziona")
@@ -104,8 +106,8 @@ add_selectbox = st.sidebar.radio(
 
 # ##################################################
 ############## Plot ############################
-import matplotlib.pyplot as plt 
-from numpy.random import rand
+
+
 
 fig = plt.figure(figsize=(18,10)) 
 plt.scatter([1,2,3,4,5],[1,2,3,4,5])
