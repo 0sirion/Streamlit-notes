@@ -1,6 +1,5 @@
 import streamlit as st
-import matplotlib.pyplot as plt 
-from numpy.random import rand
+
 
 
 st.text("Ciao questo fron frtrtrettretertretunziona")
